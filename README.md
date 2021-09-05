@@ -8,7 +8,7 @@ SQLAlchemy, Pandas and Matplotlib was used to perform the following analysis.
 ![](https://github.com/savi09/climate-analysis/blob/601f6d6ae14a3c6d8eff0dfaf071b7b79bf11ac0/Percipitation%20table.PNG)
 
 #### Precipitation Over the Past 12 Months
-![](https://github.com/savi09/climate-analysis/blob/601f6d6ae14a3c6d8eff0dfaf071b7b79bf11ac0/percipitation.png)
+![](https://github.com/savi09/climate-analysis/blob/3f8dc74fd4381397b8827f0cfe47ce6d1ce074dc/Percip%20Bar%20Chart.PNG)
 
 * Description of the percipitation data: the number of records (2015), average percipitation (0.18 in), standard deviation (0.46), minimum percipitation(0 in), percipitation data quartiles, and maximum percipitation (6.7 in).
 
