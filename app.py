@@ -40,8 +40,8 @@ def welcome():
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
-        f"/api/v1.0/<start><br/>"
-        f"/api/v1.0/<start>/<end>"
+        f"/api/v1.0/tobs/<start><br/>"
+        f"/api/v1.0/tobs/<start>/<end>"
     )
 
 
@@ -110,7 +110,7 @@ def tobs():
     return jsonify(observations)
 
 
-@app.route("/api/v1.0/<start>")
+@app.route("/api/v1.0/tobs/<start>")
 def tobs_start(start):
     # Create our session (link) from Python to the DB
     session = Session(engine)
@@ -127,7 +127,7 @@ def tobs_start(start):
     return jsonify(observations)
 
 
-@app.route("/api/v1.0/<start>/<end>")
+@app.route("/api/v1.0/tobs/<start>/<end>")
 def tobs_start_end(start, end):
     # Create our session (link) from Python to the DB
     session = Session(engine)
